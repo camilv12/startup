@@ -4,8 +4,8 @@ Are you tired of boring, everyday life? Do you perhaps need something to make yo
 
 Disclaimer: No actual moles were harmed in the making of this game.
 
-##Design
-![Mock](mockUI.png)
+## Design
+![Mock](MockUI.png)
 
 ## Notes
 https://github.com/camilv12/startup/blob/main/notes.md
