@@ -26,6 +26,9 @@
 - `tracert` - Trace the connections to a website
 - `dig` - Show the DNS information for a domain
 - `man` - Look up a command in the manual
+- `|` - Take the output from the command on the left and pass (pipe) the output to the command on the right 
+- `>` - Redirect output to the file on the right. Overwrites the file if it exists.
+- `>>` - Redirect output to the file on the right. Appends to the file if it exists.
 ## Github
 ### Repositories
 You can create a repository on GitHub or by using the `git init` command on Git Bash. You can then clone it to your local environment using the `git clone` command and copying the url to your repository.
