@@ -58,3 +58,90 @@ remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/camilv12/startup.git
    a5acfe0..9bd6fdd  main -> main
 ```
+
+## HTML
+### Elements
+#### Common elements
+
+Modern HTML contains over 100 different elements. Here is a short list of HTML elements that you will commonly see.
+
+| element   | meaning                                                                |
+| --------- | ---------------------------------------------------------------------- |
+| `html`    | The page container                                                     |
+| `head`    | Header information                                                     |
+| `title`   | Title of the page                                                      |
+| `meta`    | Metadata for the page such as character set or viewport settings       |
+| `script`  | JavaScript reference. Either a external reference, or inline           |
+| `include` | External content reference                                             |
+| `body`    | The entire content body of the page                                    |
+| `header`  | Header of the main content                                             |
+| `footer`  | Footer of the main content                                             |
+| `nav`     | Navigational inputs                                                    |
+| `main`    | Main content of the page                                               |
+| `section` | A section of the main content                                          |
+| `aside`   | Aside content from the main content                                    |
+| `div`     | A block division of content                                            |
+| `span`    | An inline span of content                                              |
+| `h<1-9>`  | Text heading. From h1, the highest level, down to h9, the lowest level |
+| `p`       | A paragraph of text                                                    |
+| `b`       | Bring attention                                                        |
+| `table`   | Table                                                                  |
+| `tr`      | Table row                                                              |
+| `th`      | Table header                                                           |
+| `td`      | Table data                                                             |
+| `ol,ul`   | Ordered or unordered list                                              |
+| `li`      | List item                                                              |
+| `a`       | Anchor the text to a hyperlink                                         |
+| `img`     | Graphical image reference                                              |
+| `dialog`  | Interactive component such as a confirmation                           |
+| `form`    | A collection of user input                                             |
+| `input`   | User input field                                                       |
+| `audio`   | Audio content                                                          |
+| `video`   | Video content                                                          |
+| `svg`     | Scalable vector graphic content                                        |
+| `iframe`  | Inline frame of another HTML page                                      |
+
+#### Special Characters
+| Character | Entity      |
+| --------- | ----------- |
+| &amp;     | `&amp;`     |
+| <         | `&lt;`      |
+| >         | `&gt;`      |
+| "         | `&quot;`    |
+| '         | `&apos;`    |
+| &#128512; | `&#128512;` |
+
+#### Structure
+| Element    | Meaning                                                       |
+| ---------- | --------------------------------------------------------------|
+| `body`     | Top level container. Contains `p`, `span`, `nav`, and `div`.  |
+| `header`   | A container with `p`, `span`, `nav`, and `div`                |
+| `footer`   | A container with only a single `span`                         |
+| `main`     | A containter with `section` and `aside`                       |
+| `section`  | A container that contains either `ul` or `table`              |
+| `aside`    | A container for content that does not fit the flow of sections|
+| `p`        | Paragraph container                                           |
+| `table`    | Container used to make a table. Contains `td`,`th`, and `tr`  |
+| `ol/ul`    | Ordered List / Unordered list                                 |
+| `div`      | Divisions of sub-content                                      |
+| `span`     | A container used to markup part of a text inline              |
+
+#### Input
+| Element    | Meaning                          | Example                                        |
+| ---------- | -------------------------------- | ---------------------------------------------- |
+| `form`     | Input container and submission   | `<form action="form.html" method="post">`      |
+| `fieldset` | Labeled input grouping           | `<fieldset> ... </fieldset>`                   |
+| `input`    | Multiple types of user input     | `<input type="" />`                            |
+| `select`   | Selection dropdown               | `<select><option>1</option></select>`          |
+| `optgroup` | Grouped selection dropdown       | `<optgroup><option>1</option></optgroup>`      |
+| `option`   | Selection option                 | `<option selected>option2</option>`            |
+| `textarea` | Multiline text input             | `<textarea></textarea>`                        |
+| `label`    | Individual input label           | `<label for="range">Range: </label>`           |
+| `output`   | Output of input                  | `<output for="range">0</output>`               |
+| `meter`    | Display value with a known range | `<meter min="0" max="100" value="50"></meter>` |
+
+#### Media
+Elements used to represent media are `img`, `audio`, and `video`. These elements reference external files. They require the `src` attribute to reference a file.
+`svg` and `canvas` are elements that contain code to render an image.
+
+
